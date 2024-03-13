@@ -1,0 +1,226 @@
+
+/* 91904 */
+footer{ 
+    width: 100%;
+    background-color: #526D82;
+    text-align: center;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+   position: fixed;
+}
+
+header{ 
+    width: 100%;
+    background-color: #ffd98c ;
+    text-align: center;
+    top: 0px;
+    left: 0;
+    right: 0;
+    position: fixed;
+    font-family: Georgia;
+    color: #27374D;
+    font-size: 20px;
+}
+
+body{
+    background-color: #fff2d8;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.vak{
+    width: 400px;
+    height: 300px;
+    background-color: #27374D;
+    border-radius: 15px;
+    padding: 20PX;
+  color: white;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+
+
+}
+input{
+    width: 100%;
+    border-radius: 15px;
+    box-align: center;
+}
+select{ 
+  width: 102%;
+  border-radius: 15px;
+  text-align: center;
+}
+h3{
+    text-align: center;
+    color: white;
+    text-shadow: 15px; 
+    
+}
+div{    
+  
+   font-size: 100%
+}
+
+.text{
+    color: rgb(243, 235, 235);   
+    font-size: 20px;
+    text-shadow: 100x; 
+    text-shadow: #9DB2BF;
+
+}
+
+button{
+    width: 410px;
+    border-radius: 15px;
+    background-color: #526D82;
+    font-family: Georgia;
+
+
+    
+}
+
+button:hover{
+    background-color: #9DB2BF;
+}
+
+.Page{
+    width: 400px;
+    height: 300px;
+   
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+
+}
+
+.info{
+    width: 400px;
+    height: 850px;
+    background-color: #ffe1a5;
+    border-radius: 15px;
+    padding: 20PX;
+  color: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+    
+
+}
+
+.info{
+    font-size: 30px;
+}
+
+#next{
+    text-align: left;
+}
+
+.direct {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    background-color: #ffd98c;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-left: auto; 
+    width: fit-content;
+}
+
+.direct a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia;
+    font-size: 21px;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #ffd98c;
+    transition: background-color 0.3s ease;
+}
+
+.direct a:hover {
+    background-color: #9DB2BF;
+}
+
+
+
+.title 
+
+
+
+.Maurits{
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffe1a5;
+    border-radius: 15px;
+    padding: 20PX;
+    color: rgb(0, 0, 0);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+}
+
+.edit{
+    top: 25%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: fit-content;
+
+}
+
+.form{
+    width: 400px;
+    height: 600px;
+    background-color: #ffe1a5;
+    border-radius: 15px;
+    padding: 20PX;
+  color: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+}
+
+.contactPage{
+    background-color: #fff6f6;
+}
+
+ .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        justify-content: center;
+    }
+    .project {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+    }
+    .project img {
+        margin-bottom: 10px;
+    }
+
+
+
